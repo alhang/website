@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alan Hang's Digital Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Alan Hang">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="icon" type="image/jpeg" href="./media/favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            .material-symbols-outlined {
+              font-variation-settings:
+              'FILL' 0,
+              'wght' 400,
+              'GRAD' 0,
+              'opsz' 48
+            }
+
+            button a{
+                text-decoration: none;
+                color: white;
+            }
+
+            button:hover{
+                background-color: rgb(0, 162, 255);
+                cursor: pointer;
+            }
+
+            #hw5{
+                display: flex;
+                gap: 0.3rem;
+            }
+        </style>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5MLS2B7Z4K"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-5MLS2B7Z4K');
+        </script>
+
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Alan's Digital Portfolio</h1>
+            
+            <nav>
+                <button id="burger"><span class="material-symbols-outlined">menu</span></button>
+                <ul>
+                    <li><a id="nav-home" class="active" href="./index.html">HOME</a></li>
+                    <li><a id="nav-about" href="./about.html">ABOUT</a></li>
+                    <li><a id="nav-projects" href="./projects.html">PROJECTS</a></li>
+                    <li><a id="nav-skills" href="./skills.html">SKILLS</a></li>
+                    <li><a id="nav-contact" href="./contact.html">CONTACT ME</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+        <div class="intro">Welcome</div>
+        <main class="content">
+            
+
+            <section>
+                <h2 id="greeting"></h2>
+            </section>
+
+            <p>This site is a digital portfolio showcasing my achievements and abilities. 
+                I hope that this site informs you well. If you have any comments, questions, 
+                or concerns, please feel free to head over to the "Contact Me" section where 
+                you can reach me in a multitude of ways.
+            </p>
+        </main>
+
+        <hr>
+
+        <footer>
+            <p>Author: Alan Hang</p>
+            <p><a href="mailto:alhang@ucsd.edu">alhang@ucsd.edu</a></p>
+        </footer>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
